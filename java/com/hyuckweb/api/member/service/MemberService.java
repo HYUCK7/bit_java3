@@ -12,4 +12,13 @@ package com.hyuckweb.api.member.service;
  * 2022-02-11         HYUCK7         최초 생성
  */
 public interface MemberService {
+    String memberList();
+    String memberInfo();
+    String checkList();
+    String regSendEmail();
+    String SaveMoneyList();
+    String checkSavings();
+    String save();
+    String delete();
+
 }
